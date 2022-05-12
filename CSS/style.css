@@ -19,8 +19,13 @@ p {
     /* border: pink dotted 0.1em; */
     color: #9B0F41;
 }
-br {
-    height: 3.29482759%;
+.br {
+    display: block;
+    margin-bottom: 1.25em;
+    /* height: 3.29482759%; */
+}
+br.sml {
+    height: 500px;
 }
 #content {
     display: flex;
