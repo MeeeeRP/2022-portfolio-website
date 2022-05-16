@@ -4,19 +4,22 @@ body {
     background-color: rgba(238, 73, 77, .2);
     font-size: 100%;
     top: 0;
+    width: 100%;
+    height: 100%;
 }
 h1 {
     position: static;
     font-family: Satisfy, Script;
     font-size: 9.375em;
     color: #5A0424;
+    margin: 0;
 }
 p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.25em;
     /* font-weight: bold; */
     padding: 3.448275862069%;
-    /* border: pink dotted 0.1em; */
+    border: pink dotted 0.1em;
     color: #9B0F41;
 }
 .br {
@@ -46,14 +49,17 @@ br.sml {
     border: black solid 3pt;
 } */
 header {
+    align-items: flex-start;
     position: absolute;
     top: 0;
     width: 100%;
     height: 17.125em;
     background: #9B0F41;
     margin: 0;
+
 }
 footer {
+
     position: relative;
     height: 11.625em;
     background: #9B0F41;
@@ -64,7 +70,7 @@ footer {
 #gallery {
     display: grid;
     grid-template: auto, auto, auto, auto, auto / 39.655172%, 50%;
-    grid-gap: 1.25em;
+    grid-gap: 0 1.25em;
     padding: 1.25em;
     /* width: 100%; */
 }
@@ -83,6 +89,60 @@ footer {
     padding: 0;
     margin: 0;
     text-align: right;
+}
+#headerBox2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 154px;
+    background: rgba(90, 4, 36, .4);
+    border-radius: 25px;
+    bottom: 0;
+}
+#headerBox1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 160px;
+    background: rgba(255, 255, 255, .4);
+    border-radius: 25px;
+}
+#nameandlogo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 115px;
+    padding-top: 30px;
+    padding-right: 70px;
+    width: 100%;
+}
+#headerspace {
+    display: inline-block;
+    width: 115px;
+}
+nav {
+    height: 100px;
+    width: 110%;
+    background: #9B0F41;
+    margin: 0;
+    padding: 0;
+    top: 17.125em;
+    border: black 3pt solid;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    list-style: none;
+    width: 166px;
+    height: 45px;
+    background: white;
 }
 .pt16 {
     font-size: 0.8; /*1em; */
