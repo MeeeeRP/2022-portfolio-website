@@ -18,7 +18,7 @@ p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.25em;
     /* font-weight: bold; */
-    padding: 3.448275862069%;
+    padding: 1em;
     border: pink dotted 0.1em;
     color: #9B0F41;
 }
@@ -49,7 +49,10 @@ br.sml {
     border: black solid 3pt;
 } */
 header {
-    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     top: 0;
     width: 100%;
@@ -94,42 +97,41 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 280px;
-    height: 154px;
+    width: 14em;
+    height: 7.7em;
     background: rgba(90, 4, 36, .4);
-    border-radius: 25px;
+    border-radius: 1.25em;
     bottom: 0;
 }
 #headerBox1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1000px;
-    height: 160px;
+    width: 45em;
+    height: 8em;
     background: rgba(255, 255, 255, .4);
-    border-radius: 25px;
+    border-radius: 1.25em;
 }
 #nameandlogo {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-left: 115px;
-    padding-top: 30px;
-    padding-right: 70px;
-    width: 100%;
+    align-items: center;
+    margin-left: 5.75em;/*   8.984375%;   115px/1280 */
+    margin-top: 1.5em; /*   16.129032258%;     30px/186 */
+    margin-right: 3.5em; /*   5.46875%;  70px/1280 */
 }
 #headerspace {
     display: inline-block;
-    width: 115px;
+    width: 5.75em;
 }
 nav {
     height: 100px;
-    width: 110%;
+    width: 100%;
     background: #9B0F41;
     margin: 0;
     padding: 0;
     top: 17.125em;
-    border: black 3pt solid;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -145,7 +147,7 @@ li {
     background: white;
 }
 .pt16 {
-    font-size: 0.8; /*1em; */
+    font-size: 0.8em; /*1em; */
     /* font-weight: bold;
     font-style: italic; */
 }
@@ -167,6 +169,10 @@ li {
 img.left {
     position: relative;
     /* top: -1.25em; */
+}
+#logo {
+    width: 12.7272727273em;
+    height: 7em;
 }
 /* img.right {
     width: 40%;
