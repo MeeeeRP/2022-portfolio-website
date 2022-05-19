@@ -10,7 +10,7 @@ body {
 h1 {
     position: static;
     font-family: Satisfy, Script;
-    font-size: 9.375em;
+    font-size: 7.5em;
     color: #5A0424;
     margin: 0;
 }
@@ -37,8 +37,7 @@ br.sml {
     width: 100%;
     height: 100%;
     top: 0;
-    padding-bottom: 11.625em;
-    padding-top: 17.125em;
+    /* padding-top: 17.125em; */
 }
 #one, #two {
     position: relative;
@@ -56,17 +55,17 @@ header {
     position: absolute;
     top: 0;
     width: 100%;
-    height: 17.125em;
+    height: 9.3em;
     background: #9B0F41;
     margin: 0;
-
+    z-index: 6;
 }
 footer {
-
     position: relative;
     height: 11.625em;
     background: #9B0F41;
-    bottom: 11.625em;
+    /* bottom: 11.625em; */
+    bottom: 0;
     width: 100%;
     /* display: none; */
 }
@@ -107,7 +106,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 45em;
+    width: 40em;
     height: 8em;
     background: rgba(255, 255, 255, .4);
     border-radius: 1.25em;
@@ -126,25 +125,41 @@ footer {
     width: 5.75em;
 }
 nav {
-    height: 100px;
+    height: 5em;
     width: 100%;
     background: #9B0F41;
     margin: 0;
     padding: 0;
-    top: 17.125em;
+    top: 0;
+    margin-top: 9.3em;
     align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    position: sticky;
+    z-index: 5;
 }
 ul {
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 li {
     list-style: none;
-    width: 166px;
-    height: 45px;
-    background: white;
+    width: 8.3em;
+    height: 2.25em;
+    border-radius: 1.25em;
+    background: rgba(255, 255, 255, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFD96D;
+    font-weight: bold;
+    font-size: 1.5em;
+
 }
 .pt16 {
     font-size: 0.8em; /*1em; */
@@ -172,10 +187,13 @@ img.left {
 }
 #logo {
     width: 12.7272727273em;
-    height: 7em;
+    height: 8em;
 }
 #name {
     color: #FFF08F;
+    font-weight: initial;
+    /* width: 35em; */
+    font-stretch: ultra-expanded;
 }
 /* img.right {
     width: 40%;
