@@ -48,13 +48,7 @@ br.sml {
     overflow-x: hidden;
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
-}
-#one, #two {
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
-    overflow-y: scroll; 
-}
-  
+}  
 #one::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
 }
@@ -78,8 +72,14 @@ header {
     z-index: 6;
 }
 footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.2em;
+    padding-left: 3.125%;
+    padding-right: 3.125%;
+    justify-content: space-around;
     position: relative;
-    height: 11.625em;
+    height: 9.3em; /*24/20 */
     background: #9B0F41;
     /* bottom: 11.625em; */
     bottom: 0;
@@ -180,6 +180,32 @@ a {
     font-weight: bold;
     font-size: 1.5em;
 
+}
+a.footerhead {
+    font-family: 'Courier New', Courier, monospaces;
+    color: white;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+div.footerdiv {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+a.footerlist {
+    font-family: 'Courier New', Courier, monospaces;
+    color: white;
+    font-size: 1em;
+}
+h4 {
+    font-family: 'Courier New', Courier, monospaces;
+    color: white;
+    font-size: 1em;
+    justify-self: end;
+    text-align: right;
+    width: 85%;
 }
 .pt16 {
     font-size: 0.8em; /*1em; */
