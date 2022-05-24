@@ -52,14 +52,14 @@ span.bigbr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    row-gap: 1.em;
+    /* row-gap: 1em; */
 }
 #content {
     display: flex;
     justify-content: center;
     margin: 0;
     width: 100%;
-    height: 100%;
+    height: calc(100%-11.3em);
     top: 9.3em;
     /* padding-top: 17.125em; */
 }
