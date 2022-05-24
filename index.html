@@ -20,6 +20,7 @@
         </div>
 
     </header>
+    <!-- I would include the nav in the header, but I want to do a thing where the nav can tilt independent of the header so I am leaving it serparate -->
         <nav>
             <ul>
                 <li><a href="#gallery">my work</a></li>
@@ -28,6 +29,7 @@
             </ul>
         </nav>
     <div id="content">
+        <!-- content is divided up into two divs, "one" and "two". these divs each have individual scroll -->
     <div id="one">
         <div id="bio">
             <h1 class="shrink">Bio</h1>
@@ -52,6 +54,8 @@
                 here are my favorite selection of games to play if you do not want to do homework:
             </p>
                 <!-- <span class="br"></span> -->
+                <!-- these games are hosted on this server since google kept frame killing my iframes :( -->
+                <!-- not sure how to make this more efficient, that would be helpful -->
                 <div id="snaketitle">
                     <p>game: snake</p><p>my highscore: 207</p>
                 </div>
@@ -63,6 +67,8 @@
                 <iframe title="minesweeper" height="620px" width="620px" src="Webpage/Google-Minesweeper.html" frameborder="0"></iframe>
         </div>
     </div>
+    <!-- this is div two of the two divs (it's a grid) -->
+    <!-- since I can't add a heigh to a <br/> tag I used span tags with the class br/bigbr on them to add spacing -->
     <div id="two">
         <div id="gallery">
             <h1 class="shrink">Gallery</h1>
@@ -124,6 +130,7 @@
             </div>
         </div>
         </div>
+        <!-- at some point I will hide the hidden list in the footer and it will only show up if you hover over it or something I'm not really sure. -->
     <footer>
         <div class="footerdiv">
             <a class="footerhead" href="#bio">About Me</a>

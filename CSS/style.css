@@ -7,80 +7,7 @@ body {
     width: 100%;
     overflow-x: hidden;
 }
-h1 {
-    position: static;
-    font-family: Satisfy, Script;
-    font-size: 7.5em;
-    color: #5A0424;
-    margin: 0;
-}
-#contact, #gallery {
-    text-align: right;
-    width: 100%;
-}
-p {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.25em;
-    /* font-weight: bold; */
-    padding: 1em;
-    /* border: pink dotted 0.1em; */
-    color: #9B0F41;
-}
-span.br {
-    display: block;
-    margin-bottom: 1.25em;
-    /* height: 3.29482759%; */
-}
-span.bigbr {
-    display: block;
-    margin-bottom: 4em;
-    /* height: 3.29482759%; */
-}
-#snaketitle, #minesweepertitle {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-    height: 1em;
-    width: 100%;
-    z-index: 10;
-    position: relative;
-    top: -3.25em;
-}
-#games {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* row-gap: 1em; */
-}
-#content {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    width: 100%;
-    height: calc(100%-11.3em);
-    top: 9.3em;
-    /* padding-top: 17.125em; */
-}
-#one, #two {
-    position: relative;
-    width: 50%;
-    margin: 2.5em;
-    height: 40em;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
-}  
-#one::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
-}
-#two::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
-}
-/* div {
-    border: black solid 3pt;
-} */
+/* header */
 header {
     display: flex;
     flex-wrap: wrap;
@@ -93,44 +20,6 @@ header {
     background: #9B0F41;
     margin: 0;
     z-index: 6;
-}
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1.2em;
-    padding-left: 3.125%;
-    padding-right: 3.125%;
-    justify-content: space-around;
-    position: relative;
-    height: 6.73em; /*24/20 ->9.3em */
-    background: #9B0F41;
-    /* bottom: 11.625em; */
-    bottom: 0;
-    width: 100%;
-    /* display: none; */
-}
-#gallerygrid {
-    display: grid;
-    grid-template: auto, auto, auto, auto, auto / 39.655172%, 50%;
-    grid-gap: 0 1.25em;
-    padding: 1.25em;
-    /* width: 100%; */
-}
-.left {
-    width: 100%;
-    height: 100%;
-    grid-column: 1;
-    padding: 0;
-    margin: 0;
-    text-align: left;
-}
-.right {
-    width: 100%;
-    height: 100%;
-    grid-column: 2;
-    padding: 0;
-    margin: 0;
-    text-align: right;
 }
 #headerBox2 {
     display: flex;
@@ -167,6 +56,19 @@ footer {
     display: inline-block;
     width: 5.75em;
 }
+#logo {
+    width: 12.7272727273em;
+    height: 8em;
+}
+#name {
+    color: #FFF08F;
+    font-weight: initial;
+    /* width: 35em; */
+    font-stretch: ultra-expanded;
+    position: relative;
+    top: -.15em;
+}
+/* nav */
 nav {
     height: 5em;
     width: 100%;
@@ -202,7 +104,122 @@ a {
     color: #FFD96D;
     font-weight: bold;
     font-size: 1.5em;
-
+}
+h1 {
+    position: static;
+    font-family: Satisfy, Script;
+    font-size: 7.5em;
+    color: #5A0424;
+    margin: 0;
+}
+#content {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    height: calc(100%-11.3em);
+    top: 9.3em;
+    /* padding-top: 17.125em; */
+}
+#one, #two {
+    position: relative;
+    width: 50%;
+    margin: 2.5em;
+    height: 40em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+}  
+#one::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+#two::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+/* div one (left) */
+#games {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* row-gap: 1em; */
+}
+#snaketitle, #minesweepertitle {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    height: 1em;
+    width: 100%;
+    z-index: 10;
+    position: relative;
+    top: -3.25em;
+}
+#contact, #gallery {
+    text-align: right;
+    width: 100%;
+}
+/* div two (gallery) */
+#gallerygrid {
+    display: grid;
+    grid-template: auto, auto, auto, auto, auto / 39.655172%, 50%;
+    grid-gap: 0 1.25em;
+    padding: 1.25em;
+    /* width: 100%; */
+}
+.left {
+    width: 100%;
+    height: 100%;
+    grid-column: 1;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+img.left {
+    position: relative;
+    /* top: -1.25em; */
+}
+.right {
+    width: 100%;
+    height: 100%;
+    grid-column: 2;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+span.br {
+    display: block;
+    margin-bottom: 1.25em;
+    /* height: 3.29482759%; */
+}
+span.bigbr {
+    display: block;
+    margin-bottom: 4em;
+    /* height: 3.29482759%; */
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25em;
+    /* font-weight: bold; */
+    padding: 1em;
+    /* border: pink dotted 0.1em; */
+    color: #9B0F41;
+}
+/* footer */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.2em;
+    padding-left: 3.125%;
+    padding-right: 3.125%;
+    justify-content: space-around;
+    position: relative;
+    height: 6.73em; /*24/20 ->9.3em */
+    background: #9B0F41;
+    /* bottom: 11.625em; */
+    bottom: 0;
+    width: 100%;
+    /* display: none; */
 }
 a.footerhead {
     font-family: 'Courier New', Courier, monospaces;
@@ -210,7 +227,6 @@ a.footerhead {
     font-size: 1em;
     text-decoration: underline;
 }
-
 div.footerdiv {
     width: 25%;
     display: flex;
@@ -230,6 +246,7 @@ h4 {
     text-align: right;
     width: 85%;
 }
+/* font sizes */
 .pt16 {
     font-size: 0.8em; /*1em; */
     /* font-weight: bold;
@@ -254,22 +271,3 @@ h4 {
 .pt26 {
     font-size: 1.3em;/*1.625em; */
 }
-img.left {
-    position: relative;
-    /* top: -1.25em; */
-}
-#logo {
-    width: 12.7272727273em;
-    height: 8em;
-}
-#name {
-    color: #FFF08F;
-    font-weight: initial;
-    /* width: 35em; */
-    font-stretch: ultra-expanded;
-    position: relative;
-    top: -.15em;
-}
-/* img.right {
-    width: 40%;
-} */
