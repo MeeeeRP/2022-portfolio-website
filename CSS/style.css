@@ -6,6 +6,7 @@ body {
     top: 0;
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 h1 {
     position: static;
@@ -13,6 +14,10 @@ h1 {
     font-size: 7.5em;
     color: #5A0424;
     margin: 0;
+}
+#contact, #gallery {
+    text-align: right;
+    width: 100%;
 }
 p {
     font-family: 'Courier New', Courier, monospace;
@@ -22,13 +27,32 @@ p {
     /* border: pink dotted 0.1em; */
     color: #9B0F41;
 }
-.br {
+span.br {
     display: block;
     margin-bottom: 1.25em;
     /* height: 3.29482759%; */
 }
-br.sml {
-    height: 500px;
+span.bigbr {
+    display: block;
+    margin-bottom: 4em;
+    /* height: 3.29482759%; */
+}
+#snaketitle, #minesweepertitle {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    height: 1em;
+    width: 100%;
+    z-index: 10;
+    position: relative;
+    top: -3.25em;
+}
+#games {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1.em;
 }
 #content {
     display: flex;
@@ -79,14 +103,14 @@ footer {
     padding-right: 3.125%;
     justify-content: space-around;
     position: relative;
-    height: 9.3em; /*24/20 */
+    height: 6.73em; /*24/20 ->9.3em */
     background: #9B0F41;
     /* bottom: 11.625em; */
     bottom: 0;
     width: 100%;
     /* display: none; */
 }
-#gallery {
+#gallerygrid {
     display: grid;
     grid-template: auto, auto, auto, auto, auto / 39.655172%, 50%;
     grid-gap: 0 1.25em;
@@ -213,7 +237,11 @@ h4 {
     font-style: italic; */
 }
 .pt17 {
-    font-size: 0.85em; /*1.0625em; */
+    font-size: 0.85rem; /*1.0625em; */
+    font-style: italic;
+    color: #9B0F41;
+    font-weight: initial;
+
 }
 .pt23 {
     font-size: 1.15em;/*1.4375em; */
