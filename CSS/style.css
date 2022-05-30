@@ -194,7 +194,7 @@ span.br {
 }
 span.bigbr {
     display: block;
-    margin-bottom: 4em;
+    margin-bottom: 7em;
     /* height: 3.29482759%; */
 }
 p {
@@ -237,6 +237,23 @@ a.footerlist {
     font-family: 'Courier New', Courier, monospaces;
     color: white;
     font-size: 1em;
+}
+#language {
+   justify-self: start;
+   text-align: left;
+   width: 4.2em;
+   display: flex;
+   flex-wrap: wrap;
+   row-gap: .001em;
+   height: 2.3em;
+   left: 0;
+   position: absolute;
+   margin-left: 3.125%;
+   bottom: .8em;
+   font-style: italic;
+   font-size: .75em;
+   /* border: white .001em solid;
+   border-radius: 15%; */
 }
 h4 {
     font-family: 'Courier New', Courier, monospaces;
