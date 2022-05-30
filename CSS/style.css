@@ -271,3 +271,7 @@ h4 {
 .pt26 {
     font-size: 1.3em;/*1.625em; */
 }
+
+iframe::-webkit-scrollbar {
+    display: none;
+}
