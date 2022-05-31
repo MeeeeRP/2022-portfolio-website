@@ -342,3 +342,6 @@ body::-webkit-scrollbar-thumb {
     width: 45%;
     height: 45%;
 }
+iframe::-webkit-scrollbar {
+    display: none;
+}
