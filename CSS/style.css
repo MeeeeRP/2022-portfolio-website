@@ -108,7 +108,7 @@ a {
 h1 {
     position: static;
     font-family: Satisfy, Script;
-    font-size: 7.5em;
+    font-size: 8em;
     color: #5A0424;
     margin: 0;
 }
@@ -149,6 +149,7 @@ h1 {
     justify-content: space-between;
     margin: 0;
     padding: 0;
+    padding-top: 1em;
     height: 1em;
     width: 100%;
     z-index: 10;
@@ -179,6 +180,10 @@ img.left {
     position: relative;
     /* top: -1.25em; */
 }
+img.right {
+    position: relative;
+    /* top: -1.25em; */
+}
 .right {
     width: 100%;
     height: 100%;
@@ -194,14 +199,14 @@ span.br {
 }
 span.bigbr {
     display: block;
-    margin-bottom: 7em;
+    margin-bottom: 4em;
     /* height: 3.29482759%; */
 }
 p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.25em;
     /* font-weight: bold; */
-    padding: 1em;
+    /* padding: 1em; */
     /* border: pink dotted 0.1em; */
     color: #9B0F41;
 }
@@ -314,11 +319,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 #two {
+    direction: ltr;
+    margin-left:1em;
+}
+#one {
     direction: rtl;
+    margin-right:1em;
 }
 #contactp {
     width: 100%;
-    margin-left: 6%;
+    margin-left: 10%;
 }
 .contactimg {
     width: 3em;
@@ -326,6 +336,7 @@ body::-webkit-scrollbar-thumb {
 }
 #icons {
     width: 5%;
+    margin-left: 1.25em;
 }
 #contact-cont {
     display: flex;
@@ -339,9 +350,18 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
 }
 .bioimg {
-    width: 45%;
-    height: 45%;
+    width: 35%;
+    height: 35%;
+    padding-left: 1.25em;
 }
 iframe::-webkit-scrollbar {
     display: none;
+}
+#games, #bio, #contact {
+    direction: ltr;
+    padding-left: 1.25rem;
+}
+.shrink {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
 }
