@@ -128,15 +128,15 @@ h1 {
     height: 40em;
     overflow-y: scroll;
     overflow-x: hidden;
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
+    /*-ms-overflow-style: none; for Internet Explorer, Edge */
+    /*scrollbar-width: none; for Firefox */
 }  
-#one::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
+/* #one::-webkit-scrollbar {
+    display: none; for Chrome, Safari, and Opera 
 }
 #two::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
-}
+    display: none; for Chrome, Safari, and Opera 
+} */
 /* div one (left) */
 #games {
     display: flex;
@@ -287,4 +287,58 @@ h4 {
 }
 .pt26 {
     font-size: 1.3em;/*1.625em; */
+}
+/* width */
+::-webkit-scrollbar {
+    width: 1em;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  /* background: rgba(255, 255, 255, .4); */
+  /* border: rgba(238, 73, 77, .2) dotted .1em; */
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9B0F41; 
+  border-radius: 25em;
+}
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: #5A0424; 
+    border-radius: 25em;
+  }
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #5A0424; 
+}
+
+#two {
+    direction: rtl;
+}
+#contactp {
+    width: 100%;
+    margin-left: 6%;
+}
+.contactimg {
+    width: 3em;
+    padding: .02em;
+}
+#icons {
+    width: 5%;
+}
+#contact-cont {
+    display: flex;
+    flex-wrap: nowrap;
+}
+#biop {
+    width: 70%;
+}
+#bio-cont {
+    display: flex;
+    align-items: center;
+}
+.bioimg {
+    width: 45%;
+    height: 45%;
 }
