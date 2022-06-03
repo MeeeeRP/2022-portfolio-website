@@ -1,12 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 html {
-<<<<<<< HEAD
   scroll-behavior: smooth;
   scroll-padding-top: 5em;
-=======
-    scroll-behavior: smooth;
-    scroll-padding-top: 5em;
->>>>>>> 8d522ef66f1a68c29e9523af56b84619f0b39f5d
 }
 body {
   margin: 0;
