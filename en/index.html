@@ -9,7 +9,7 @@
     <title>Maya's Website :)</title>
 </head>
 <body>
-    <header>
+    <header id="top">
         <div id="nameandlogo">
             <div id="headerBox1">
                 <h1 id="name">Maya Perry</h1>
@@ -24,9 +24,9 @@
     <!-- I would include the nav in the header, but I want to do a thing where the nav can tilt independent of the header so I am leaving it serparate -->
         <nav>
             <ul>
-                <li><a href="#gallery">my work</a></li>
-                <li><a href="#bio">about me</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li><a class="nav" href="#gallery">my work</a></li>
+                <li><a class="nav" href="#bio">about me</a></li>
+                <li><a class="nav" href="#contact">contact</a></li>
             </ul>
         </nav>
     <div id="content">
@@ -40,7 +40,7 @@
                     <img class="bioimg" src="../Images/Quarantine_Selfie.JPEG"/>
             </div>
         </div>
-
+        <span class="bigbr"></span>
         <div id="contact">
             <h1 class="shrink">Contact&nbsp;</h1>
             <div id="contact-cont">
@@ -59,6 +59,7 @@
                     You don’t get my address or my # that’s creepy... but yup that’s how you contact me!</p>
             </div>
             </div>
+            <span class="bigbr"></span>
         <div id="games">
             <h1 class="shrink">Games</h1>
             <p>I love games.<br/>
@@ -68,12 +69,12 @@
                 <!-- <span class="br"></span> -->
                 <!-- these games are hosted on this server since google kept frame killing my iframes :( -->
                 <!-- not sure how to make this more efficient, that would be helpful -->
-                <div id="snaketitle">
+                <div id="snake">
                     <p>game: snake</p><p>my highscore: 207</p>
                 </div>
                 <iframe title="snake" height="620px" width="620px" src="../Webpage/Google-Snake.html" frameborder="0"></iframe>
                 <span class="br"></span>
-                <div id="minesweepertitle">
+                <div id="minesweeper">
                     <p>game: minesweeper</p><p>my highscore: 159</p>
                 </div>
                 <iframe title="minesweeper" height="620px" width="620px" src="../Webpage/Google-Minesweeper.html" frameborder="0"></iframe>
@@ -113,7 +114,7 @@
                         <span class="br"></span>
                         I even dressed up as her for Halloween this year!</p>
                     <p class="left">
-                        <span class="bigbr"></span>
+                        <span class="br"></span>
                         <span class="pt24">Another picture of me :0 woot!</span>
                         <span class="br"></span>
                         <span class="pt17">(this one you can see my face more in...)</span>
@@ -146,6 +147,7 @@
         </div>
         <!-- at some point I will hide the hidden list in the footer and it will only show up if you hover over it or something I'm not really sure. -->
     <footer>
+        <h4 id="hidefooter"><a id="hidefoot" onclick="" href="#top">Hide footer vv</a></h4>
         <div class="footerdiv">
             <a class="footerhead" href="#bio">About Me</a>
             <a class="footerlist" href="#bio">bio</a>
