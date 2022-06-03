@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 html {
+<<<<<<< HEAD
   scroll-behavior: smooth;
   scroll-padding-top: 5em;
+=======
+    scroll-behavior: smooth;
+    scroll-padding-top: 5em;
+>>>>>>> 8d522ef66f1a68c29e9523af56b84619f0b39f5d
 }
 body {
   margin: 0;
@@ -109,6 +114,7 @@ a.nav {
   font-weight: bold;
   font-size: 1.5em;
 }
+
 h1 {
   position: static;
   font-family: Satisfy, Script;
@@ -121,8 +127,9 @@ h1 {
   justify-content: center;
   margin: 0;
   width: 100%;
-  height: calc(100%-11.3em);
+  /* height: calc(100%-11.3em); */
   top: 9.3em;
+  height: 100%;
   /* padding-top: 17.125em; */
 }
 #one, #two {
@@ -169,7 +176,7 @@ h1 {
 #gallerygrid {
   display: grid;
   grid-template: auto, auto, auto, auto, auto / 39.655172%, 50%;
-  grid-gap: 0 1.25em;
+  grid-gap: 1.25em;
   padding: 1.25em;
   /* width: 100%; */
 }
@@ -293,6 +300,17 @@ h4#hidefooter {
     top: .25em;
     margin: 0;
 }
+h4#hidefooter {
+    font-weight: lighter;
+    font-size: 1.25em;
+    position: absolute;
+    top: .25em;
+    margin: 0;
+}
+/* a:visited {
+    text-decoration: none;
+    color: inherit;
+} */
 /* font sizes */
 .pt16 {
   font-size: 0.8em; /*1em; */
@@ -364,8 +382,8 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
   display: flex;
   justify-content: space-between;
-width: 3em;
-padding: 0.02em;
+  width: 3em;
+  padding: 0.02em;
 }
 #contact-cont {
   display: flex;
