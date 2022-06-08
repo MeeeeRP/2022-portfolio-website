@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+body {
+    background-color: rgba(238, 73, 77, 0.2);
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+#home {
+    margin: .5em;
+    width: 2em;
+}
+h1 {
+    font-family: Satisfy, Script;
+    font-size: 8em;
+    color: #5a0424;
+    text-align: center;
+    width: 100%;
+    margin: 1rem;
+    font-weight: bolder;
+}
+h2 {
+    font-size: 6em;
+    padding: 1rem;
+    /* padding-bottom: 0; */
+    margin: 0;
+    font-family: "Courier New", Courier, monospace;
+    opacity: 50%;
+    color: #9b0f41;
+    width: 100%;
+    height: 10%;
+}
+div.large {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-bottom: 4em;
+    width: 100%;
+}
+#graphic-design {
+    background-color: rgba(238, 73, 77, 0.4);
+}
+#writing {
+    background-color: rgba(238, 73, 77, 0.3);
+}
+#coding {
+    background-color: rgba(238, 73, 77, 0.5);
+}
+#video-editing {
+    background-color: rgba(238, 73, 77, 0.2);
+}
+#content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+img {
+    width: 100%;
+}
+img#phoneafriend {
+    width: 55%;
+}
+img#cripoem {
+    width: 55%;
+}
+p {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.25em;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+span.bold {
+    font-weight: bold;
+}
+div.work {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 28%;
+    padding: .75em;
+    margin: auto;
+    background-color: #9b0f41;
+    height: 26.25em;
+    border-radius: 5%;
+    transition: width 1s ease 0s;
+}
+div.work:hover {
+    width: 33%;
+    transition: width 1s ease 0s;
+}
+div#a-one:hover {
+    font-size: .85em;
+    height: 26.25rem;
+}
+#poemcontainer {
+    height: 60%;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: black;
+    width: 100%;
+    text-align: center;
+    border-radius: 5%;
+}
+/* width */
+#poemcontainer::-webkit-scrollbar {
+    width: .3em;
+}
+
+/* Track */
+#poemcontainer::-webkit-scrollbar-track {
+    background: rgba(238, 73, 77, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 1em;
+}
+#unicycle-magazine {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+img#unicycle1, img#unicycle2 {
+    width: 49%;
+}
+#c-one {
+    width: 90%;
+    height: 35em;
+    background-color: white;
+}
+iframe#mywebsite {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.25em;
+}
+iframe#ytvideo {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.25em;
+}
+#d-one {
+    width: 60%;
+}
+h3 {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2em;
+    margin-top: .2em;
+    margin-bottom: .5em;
+    color: #5a0424;
+}
+#quicktop {
+    text-decoration-line: none;
+}
+/* hidden page */
+.traffic {
+    width: 20%;
+  }

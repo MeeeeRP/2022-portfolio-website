@@ -427,3 +427,10 @@ iframe::-webkit-scrollbar {
   opacity: 0%;
   transition: opacity 1s ease .5s;
 }
+
+
+@media screen and (max-width: 1130px) {
+  body {
+    font-size: 70%;
+  }
+}
