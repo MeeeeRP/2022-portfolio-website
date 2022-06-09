@@ -10,6 +10,7 @@ body {
   top: 0;
   width: 100%;
   overflow-x: hidden;
+  height: 100%;
 }
 /* header */
 header {
@@ -132,6 +133,7 @@ h1 {
   position: relative;
   width: 50%;
   margin: 2.5em;
+  margin-bottom: 0em;
   height: 80vh;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -253,7 +255,7 @@ footer {
   height: 6.73em; /*24/20 ->9.3em */
   background: #9b0f41;
   /* bottom: 11.625em; */
-  bottom: -50vh;
+  /* bottom: -50vh; */
   width: 100%;
   /* display: none; */
 }
