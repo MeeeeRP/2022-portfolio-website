@@ -138,6 +138,10 @@ img#unicycle1, img#unicycle2 {
     height: 35em;
     background-color: white;
 }
+#break {
+    height: 5em;
+    width: 100%;
+}
 iframe#mywebsite {
     width: 100%;
     height: 100%;
@@ -148,8 +152,8 @@ iframe#videogame {
     width: 100%;
     height: 100%;
     border-radius: 1.25em;
-
 }
+
 iframe#ytvideo {
     width: 100%;
     height: 100%;
