@@ -133,7 +133,7 @@ div#a-one:hover {
 img#unicycle1, img#unicycle2 {
     width: 49%;
 }
-#c-one {
+#c-one, #c-two {
     width: 90%;
     height: 35em;
     background-color: white;
